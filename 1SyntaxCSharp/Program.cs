@@ -1,6 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("test!");
-//Test 
+﻿//A1
+Console.WriteLine(" .-.");
+Console.WriteLine("(o o)");
+Console.WriteLine(" |O|");
+Console.WriteLine(" | |");
+Console.WriteLine("'~~~'");
 
-
-//test
+//A2
+String alter = "20";
+String Vorname = "Parsa";
+String NachName = "Faraji";
+Console.WriteLine(alter);
+//Console.WritLIne
