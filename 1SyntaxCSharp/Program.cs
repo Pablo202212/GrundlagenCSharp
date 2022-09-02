@@ -6,8 +6,24 @@ Console.WriteLine(" | |");
 Console.WriteLine("'~~~'");
 
 //A2
-String alter = "20";
-String Vorname = "Parsa";
-String NachName = "Faraji";
+string alter = "20";
+string vorname = "Parsa";
+string NachName = "Faraji";
 Console.WriteLine(alter);
-//Console.WritLIne
+//Console.WritLine($"{Vorname} {Nachname} ist {alter} Jahre alt");
+
+//A2
+string Name;
+string Alter1;
+string klasse;
+
+Console.WriteLine("Name?");
+Name = Console.ReadLine();
+Console.WriteLine("Alter?");
+Alter1 = Console.ReadLine();
+Console.WriteLine("klasse?");
+klasse = Console.ReadLine();
+
+Console.WriteLine($"{Name} ist {Alter1} Jahre Alt und Besucht die {klasse} des Georg-Simon-Ohm- Berufskolleg.");
+
+
