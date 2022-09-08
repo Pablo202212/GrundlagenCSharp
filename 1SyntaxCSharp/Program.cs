@@ -12,7 +12,7 @@ string NachName = "Faraji";
 Console.WriteLine(alter);
 //Console.WritLine($"{Vorname} {Nachname} ist {alter} Jahre alt");
 
-//A2
+//A3
 string Name;
 string Alter1;
 string klasse;
