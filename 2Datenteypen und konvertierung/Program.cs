@@ -1,56 +1,48 @@
-﻿Console.WriteLine(short.MaxValue);
+﻿//Aufgabe 1
+
+Console.WriteLine(short.MaxValue);
 Console.WriteLine(short.MinValue);
 /*
- * 16 Bit
-32767 
--32768
- */
-
+  16 Bit 
+  32767
+  -32768
+*/
 
 Console.WriteLine(int.MaxValue);
 Console.WriteLine(int.MinValue);
 /*
- * 32 Bit
-2147483647
--2147483648
+ * 214783647
+ -2147483648
+*/
 
- */
+//Aufagbe 2
 
-Console.WriteLine(long.MaxValue);
-Console.WriteLine(long.MinValue);
+string vorname = "Parsa";
+string alter = "20";
+string frage = "true";
+
+Console.WriteLine("Ich stelle Ihnen jetzt ein paar Frage!");
+Console.WriteLine("");
+Console.WriteLine("Frage 1. Wie heißen sie?");
+vorname = Console.ReadLine();
+Console.WriteLine("Frage 2. Wie alt sind Sie?");
+alter = Console.ReadLine();
+Console.WriteLine("Letzte Frage. Ist C# die erste Programiersprache, die Sie lernen?");
+frage = Console.ReadLine();
+
+Console.WriteLine("");
+Console.WriteLine("Ihre Anworten:");
+Console.WriteLine($"1. {vorname}\n2. {alter}\n3. {frage}");
+
+//Aufgabe 3
 /*
- * 64 Bit
-9223372036854775807
--9223372036854775808
+  int Dollarzeichen = 36;
+  char Dollar = Dollazahl
+*/
 
- */
+//Aufgabe 4
+Console.WriteLine("Geben Sie die erste Variable ein!");
+string v1_str = Console.ReadLine();
 
-Console.WriteLine(float.MaxValue);
-Console.WriteLine(float.MinValue);
-/*
- * 32 Bit
-3,4028235E+38
--3,4028235E+38
-
- */
-
-Console.WriteLine(double.MaxValue);
-Console.WriteLine(double.MinValue);
-/*
- * 64 Bit
-1,7976931348623157E+308
--1,7976931348623157E+308
-
- */
-
-
-
-Console.WriteLine(decimal.MaxValue);
-Console.WriteLine(decimal.MinValue);
-/*
- * 128 Bit 
-1,7976931348623157E+308
--1,7976931348623157E+308
- */
- 
-//Aufgabe 
+short v1_short = Convert.ToInt16(v1_str);
+Console.WriteLine(v1_short);
